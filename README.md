@@ -2,6 +2,10 @@
 
 A simple, responsive coffee shop website built with **HTML, CSS, and JavaScript**. It showcases the cafe's hero section, signature coffee menu, about/visit sections, and contact details — with interactive buttons and smooth-scrolling navigation.
 
+## 📸 Screenshot
+
+![My Cafe website](screenshot.png)
+
 ## ✨ Features
 
 - **Sticky navigation bar** with links to Home, Menu, About, Visit, and Contact
@@ -22,6 +26,7 @@ cafe/
 ├── index.html          # Main cafe website page (uses style2.css)
 ├── style2.css          # Stylesheet for the main page
 ├── script.js           # JavaScript interactions & utilities
+├── screenshot.png      # Screenshot of the site (used in this README)
 │
 └── cafee/              # Alternate/older version of the site
     ├── cafe.html       # Alternate page (includes menu prices & contact form)
@@ -59,7 +64,7 @@ Defined in `script.js`:
 
 ## 🛠️ Customization
 
-https://github.com/Luckysaini01/caffee.git- **Menu items & prices** — edit the cards in the HTML and the price list in `showMenu()` in `script.js`.
+- **Menu items & prices** — edit the cards in the HTML and the price list in `showMenu()` in `script.js`.
 - **Colors & fonts** — adjust the CSS variables and rules in `style2.css` (or `cafee/style1.css` for the alternate page).
 - **Contact info** — update the email/phone in the `#contact` section of `index.html`.
 
@@ -69,6 +74,10 @@ https://github.com/Luckysaini01/caffee.git- **Menu items & prices** — edit the
 - CSS3 (Flexbox, media queries)
 - Vanilla JavaScript
 - Unsplash images (hotlinked)
+
+## 🔗 Repository
+
+- GitHub: https://github.com/Luckysaini01/caffee.git
 
 ## 📄 License
 
