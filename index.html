@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Cafe</title>
+ 
+    <link rel="stylesheet" href="style2.css"> 
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <div class="logo">☕ My Cafe</div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#about">About</a>
+            <a href="#visit">Visit</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+
+    <!-- Home -->
+    <section id="home" class="hero">
+
+        <div class="hero-text">
+
+            <h1>
+                Brewed Fresh,<br>
+                Served Warm
+            </h1>
+
+            <p>
+                From rich espresso to creamy cappuccino,
+                our handcrafted coffee is prepared using
+                premium beans.
+            </p>
+
+            <button onclick="visitCafe()">
+                Visit Us
+            </button>
+
+        </div>
+
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085"
+                 alt="Coffee">
+        </div>
+
+    </section>
+
+
+    <!-- Menu -->
+    <section id="menu" class="menu">
+
+        <h2>Our Signature Coffee</h2>
+
+        <p class="subtitle">
+            Every cup is brewed with premium coffee beans
+            to give you a rich aroma and smooth taste.
+        </p>
+
+        <button onclick="showMenu()">
+            Explore Menu
+        </button>
+
+        <div class="coffee-container">
+
+            <div class="coffee-card">
+                <img src="https://images.unsplash.com/photo-1510707577719-ae7c14805e3a"
+                     alt="Espresso">
+
+                <h3>Espresso</h3>
+
+                <p>
+                    Rich and bold espresso with a smooth taste.
+                </p>
+            </div>
+
+
+            <div class="coffee-card">
+                <img src="https://images.unsplash.com/photo-1572449043416-55f4685c9bb7"
+                     alt="Latte">
+
+                <h3>Latte</h3>
+
+                <p>
+                    Creamy and smooth latte with perfect foam.
+                </p>
+            </div>
+
+
+            <div class="coffee-card">
+                <img src="https://images.unsplash.com/photo-1534778101976-62847782c213"
+                     alt="Cappuccino">
+
+                <h3>Cappuccino</h3>
+
+                <p>
+                    Delicious coffee with creamy milk foam.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- About -->
+    <section id="about" class="about">
+
+        <h2>About Our Cafe</h2>
+
+        <p>
+            Welcome to My Cafe! We serve freshly brewed coffee
+            made from high-quality coffee beans.
+        </p>
+
+    </section>
+
+
+    <!-- Visit -->
+    <section id="visit" class="visit">
+
+        <h2>Visit Us ☕</h2>
+
+        <p>
+            Come and enjoy a fresh cup of coffee with us.
+        </p>
+
+        <button onclick="visitCafe()">
+            Get Directions
+        </button>
+
+    </section>
+
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+
+        <h2>Contact Us</h2>
+
+        <p>Email: mycafe@gmail.com</p>
+        <p>Phone: +91 9876543210</p>
+
+    </section>
+
+
+    <footer>
+        <p>© 2026 My Cafe | All Rights Reserved</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>

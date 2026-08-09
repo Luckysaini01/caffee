@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Cafe</title>
+   <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+ <header>
+      <div class="logo">☕ My Cafe</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#visit">Visit</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home" class="hero">
+        <div class="hero-text">
+
+            <h1>  Brewed Fresh,<br>
+                Served Warm</h1>
+          <p>From rich espresso to creamy cappuccino,
+                our handcrafted coffee is prepared using
+                premium beans</p>
+            <button onclick="visitCafe()">Visit Us</button>
+        </div>
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085" alt="Coffee">
+        </div>
+    </section>
+    <section id="menu" class="menu">
+        <h2>Our Menu</h2>
+        <p>Discover our delicious selection of coffee and pastries.</p><br>
+        <button onclick="viewMenu()">View Menu</button>
+
+
+
+
+        <div class="menu-items">
+            <!-- Menu items will be displayed here -->
+             <div class="menu-card">
+               <img src="https://images.unsplash.com/photo-1510707577719-ae7c14805e3a"
+                     alt="Espresso">
+                <h3>Espresso</h3>
+                <p>Rich and bold espresso made from premium beans.</p>
+                <div class="price">$3.00</div>
+            </div>
+
+
+            <div class="menu-card">
+              <img src="https://images.unsplash.com/photo-1534778101976-62847782c213"
+                     alt="Cappuccino">
+                <h3>Cappuccino</h3>
+                <p>Smooth and creamy cappuccino with steamed milk.</p>
+                <div class="price">$4.00</div>
+            </div>
+            <div class="menu-card">
+         <img src="https://images.unsplash.com/photo-1572449043416-55f4685c9bb7"
+                     alt="Latte">
+                <h3>Latte</h3>
+                <p>Rich and creamy latte with steamed milk.</p>
+                <div class="price">$4.50</div>
+            </div>
+            <div class="menu-card">
+                <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93" alt="Mocha">
+                <h3>Mocha</h3>
+                <p>Delicious chocolate mocha with steamed milk.</p>
+                <div class="price">$5.00</div>
+            </div>
+        </div>
+
+    </section>
+    
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>We are a family-owned cafe dedicated to providing the best coffee experience in town. Our passion for quality coffee drives everything we do.</p>
+    </section>
+
+    <section id="visit" class="visit">
+        <h2>Visit Us</h2>
+        <p>Come and enjoy our cozy atmosphere and freshly brewed coffee. We look forward to serving you!</p>
+        <button onclick="getDirections()">Get Directions</button> 
+        <br> <br>
+
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+       <p>123 Main Street, City, State 12345</p>
+        <p>Email: info@mycafe.com</p>
+        <p>Phone: 9719007099 </p>
+
+        <p>Have questions or want to get in touch? Reach out to us!</p>
+        <form id="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    
+
+        <footer>
+            <p>&copy; 2023 My Cafe. All rights reserved.</p>
+        </footer>
+
+</body>
+</html>
